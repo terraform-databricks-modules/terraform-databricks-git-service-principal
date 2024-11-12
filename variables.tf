@@ -38,7 +38,7 @@ variable "git_provider" {
   description = "One of the following: gitHub, gitHubEnterprise, bitbucketCloud, bitbucketServer, azureDevOpsServices, gitLab, gitLabEnterpriseEdition, awsCodeCommit"
   type        = string
   validation {
-    condition = contains(["gitHub", "gitHubEnterprise", "bitbucketCloud", "bitbucketServer", "azureDevOpsServices", "gitLab", "gitLabEnterpriseEdition", "awsCodeCommit"], var.git_provider)
+    condition     = contains(["gitHub", "gitHubEnterprise", "bitbucketCloud", "bitbucketServer", "azureDevOpsServices", "gitLab", "gitLabEnterpriseEdition", "awsCodeCommit"], var.git_provider)
     error_message = "Invalid git provider"
   }
 }
