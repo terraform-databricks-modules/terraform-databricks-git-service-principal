@@ -4,6 +4,21 @@ Terraform module for creating a git repo and service principal.
 
 This is described in the Databricks documentation [here](https://docs.databricks.com/en/repos/ci-cd-techniques-with-repos.html#use-sp-repos) but in the current version of the documentation there is a bug in the code example. This module is a working example of the code that should be used.
 
+## Meta
+
+### pre-commit
+
+This repo uses [pre-commit](https://pre-commit.com/) to run some checks on the code before it is committed. To install pre-commit run:
+
+```bash
+pip install pre-commit
+pre-commit install
+```
+
+### Conventional Commits
+
+This repo uses [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) to format commit messages. It also uses [cocogitto](https://github.com/cocogitto/cocogitto) as part of the build.
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
