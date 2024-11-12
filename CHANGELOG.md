@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## v0.1.1 - 2024-11-12
+#### Bug Fixes
+- **(dependabot)** bump databricks/databricks from 1.53.0 to 1.58.0 - (32c1dd6) - dependabot[bot]
+
+- - -
+
 ## v0.1.0 - 2024-11-12
 #### Features
 - First version of the module. - (5c9776a) - Rob Lazzurs
