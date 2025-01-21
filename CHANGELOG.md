@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## v0.2.1 - 2025-01-21
+#### Bug Fixes
+- **(dependabot)** bump databricks/databricks from 1.58.0 to 1.63.0 - (7d4e78d) - dependabot[bot]
+#### Chores
+- **(docs)** Adding some info to the README. - (38c9c52) - Rob Lazzurs
+
+- - -
+
 ## v0.2.0 - 2024-11-12
 #### Features
 - Run pre-commit for the first time. - (d0654de) - Rob Lazzurs
